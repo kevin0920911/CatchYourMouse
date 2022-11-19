@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #46c62a;
+}
+.no{
+    height: 650px;
+    width:240px; 
+}
+.eyes{
+    padding: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: aliceblue;
+    width : 100%;
+    text-align: center;
+}
+.eye{
+    background: white;
+    height: 120px;
+    width:240px;
+    display:inline-block;
+    margin:40px;
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+}
+.ball{
+    background: black;
+    width:40px;
+    height: 40px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    border-radius:50%;
+    border:15px solid #333;
+}
